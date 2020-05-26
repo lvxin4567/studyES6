@@ -27,7 +27,8 @@ var data = ''
 var readerStream = fs.createReadStream('./Node.js/input.txt');
 readerStream.setEncoding('UTF8');
 // 处理流事件 --> data, end, and error
-readerStream.on('data', function(chunk) {
+readerStream.on('data', (chunk) => {
+   console.log(chunk)
     data += chunk;
  });
  readerStream.on('end',function(){
@@ -36,3 +37,4 @@ readerStream.on('data', function(chunk) {
  readerStream.on('error', function(err){
     console.log(err.stack);
  });
+

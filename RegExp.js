@@ -60,3 +60,20 @@
 // //特殊需求表达式
 // var pattern = /^fff|a{1,}$/;
 // console.log(str.match(pattern));
+
+// var s = "JavaScript 中国";
+// s = escape(s);
+// console.log(s);
+// s = unescape(s);
+// console.log(s);
+
+// var a  = "11.2";
+// var b = "3.2"
+// var c = Number(a) - Number(b);
+// console.log(c);
+
+let a = {};
+
+if(a){
+    console.log(111)
+}
