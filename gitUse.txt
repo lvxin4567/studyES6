@@ -1,0 +1,7 @@
+1.git reset  --soft | --hard --mixed 
+https://www.jianshu.com/p/c2ec5f06cf1a
+还原在commit前的代码
+
+2.git revert
+git实际应用中我们经常需要撤回已经远程仓库的修改。
+撤销某次操作，但是此次操作之前和之后的commit和history都会保留，并且把这次撤销作为一次最新的提交。
