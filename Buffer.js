@@ -38,4 +38,3 @@ readerStream.on('data', (chunk) => {
     console.log(err.stack);
  });
 
- //this is the test code of the reset
