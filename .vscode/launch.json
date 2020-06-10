@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/Node.js/fileSystem.js"
+            "program": "${workspaceFolder}/RegExp.js"
         },
         {
             "type": "chrome",
